@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             },
             { error ->
                 //取得失敗
-                watherText.text = "取得に失敗しました😔"
+                watherText.text = "取得に失敗しました😔笑"
                 Log.e("API Error", "APIからのレスポンス取得中にエラーが発生しました: ${error.message}")
             }
         )
